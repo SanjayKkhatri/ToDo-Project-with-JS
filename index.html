@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="ToDo-App">
+
+    
+    <div class="heading">
+        <h2 class="animate__animated animate__backInLeft animate__delay-1s">Welcome To</h2>
+    <h1 class="animate__animated animate__backInRight animate__delay-1s">My <span>TODO</span> List Application</h1>
+    </div>
+
+    <div class="container">
+        <input type="text" id="todo_item" placeholder="Add your favourites" class="animate__animated animate__backInUp animate__delay-2s">
+        <button onclick="addItem()" class="animate__animated animate__backInUp animate__delay-2s"><i class="fa fa-plus"></i></button>
+        <button onclick="delItem()" class="animate__animated animate__backInUp animate__delay-2s"><i class="fa fa-trash-o"></i></button>
+
+    </div>
+
+    <div class="list_box">
+        <ul id="item_list">
+
+        </ul>
+
+    </div>
+</div>
+    <script src="app.js"></script>
+</body>
+</html>
