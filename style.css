@@ -78,6 +78,7 @@ body{
     border-radius: 12px;
     box-shadow: inset;
     margin: 5px;
+    position: sticky;
 
 
 }
@@ -138,3 +139,4 @@ body{
     cursor: pointer;
     float: right;
 }
+

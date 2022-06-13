@@ -11,11 +11,6 @@ function addItem(){
     var liText = document.createTextNode(input.value); 
     li.appendChild(liText);
     list.appendChild(li);
-    if (input === '') {
-        alert("You must write something!");
-      } else {
-        document.getElementById("item_list").appendChild(li);
-      }
 
     //Delete Button
     var delBtn = document.createElement("button");
@@ -25,6 +20,7 @@ function addItem(){
     delBtn.setAttribute("onclick","delItem(this)");
     delBtn.setAttribute("class","delitem");
     delBtn.innerHTML = '<i class="fa fa-trash-o"></i>';
+
 
 
     //Edit Button
